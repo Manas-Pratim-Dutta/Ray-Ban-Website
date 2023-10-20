@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%; 
+    height: 100%;
+}
+
+#main{
+    width:100%;
+    height: 100vh;
+    background-color: black;
+}
+#back{
+    width:100%;
+    height: 100vh;
+}
+#top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100vh;
+    background-color:#000000d8;
+}
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    /* border: 1px solid red; */
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+#nav img{
+    height: 60px;
+}
+
+#nleft,#nright{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "gilroy";
+}
+#hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);  /*as we need to only center adjust only in height wise not the width */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#heroleft{
+    min-width: 50%;
+    background-color: yellow;
+}
+
+#heroright{
+    min-width: 25%;
+    background-color: green;
+}
