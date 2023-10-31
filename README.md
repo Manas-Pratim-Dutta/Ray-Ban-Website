@@ -1,10 +1,9 @@
 # Ray-Ban-Website
 
-# Ray Ban Spectacle Company Landing Page
 
 Welcome to the Ray Ban Spectacle Company's Landing Page repository. This landing page is built with HTML, CSS, JavaScript, and utilizes the GSAP animation library and Shery.js animation library.
 
-![Ray Ban Spectacle Company](Ray-Ban-Website/images/IMG_7564.JPG)
+![Ray Ban Spectacle Company](https://rayyban.netlify.app/images/IMG_7564.JPG)
 
 ## Features
 
